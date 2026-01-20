@@ -23,9 +23,6 @@ export default function FormularioMultiplo() {
 
   // Sem formulário de dados pessoais nesta página
 
-  // Unidades especiais: somente estas devem aparecer nesta página (apartamentos já reservados)
-  const unidadesEspeciais = new Set(['L02', '207', '208', '209', '211', '213', '214', '215', '306', '307', '309']);
-
   useEffect(() => {
     // Conectar ao WebSocket
     const socketInstance = io();
@@ -131,9 +128,9 @@ export default function FormularioMultiplo() {
   };
 
   const handleSelectAll = async () => {
-    // Selecionar apenas os disponíveis dentre as unidades especiais
+    // Selecionar apenas os disponíveis
     const apartamentosDisponiveis = apartamentos
-      .filter(apt => unidadesEspeciais.has(apt.numero) && apt.status === 'disponivel')
+      .filter(apt => apt.status === 'disponivel')
       .map(apt => apt.numero);
     
     if (apartamentosDisponiveis.length === 0) {
@@ -231,9 +228,9 @@ export default function FormularioMultiplo() {
 
   // Sem submit – ação é no clique do apartamento
 
-  // Filtrar apenas as unidades especiais para exibição
-  const apartamentosEspeciais = apartamentos.filter(apt => unidadesEspeciais.has(apt.numero));
-  const apartamentosDisponiveis = apartamentosEspeciais.filter(apt => apt.status === 'disponivel');
+  // Mostrar todos os apartamentos exceto vendidos
+  const apartamentosVisiveis = apartamentos.filter(apt => apt.status !== 'vendido');
+  const apartamentosDisponiveis = apartamentosVisiveis.filter(apt => apt.status === 'disponivel');
 
   if (loading) {
     return (
@@ -302,7 +299,7 @@ export default function FormularioMultiplo() {
             {/* Painel de selecionados removido */}
 
             <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-10 xl:grid-cols-12 gap-3">
-              {apartamentosEspeciais.map((apartamento) => {
+              {apartamentosVisiveis.map((apartamento) => {
                 const isDisponivel = apartamento.status === 'disponivel';
                 const isSelecionado = false;
                 
