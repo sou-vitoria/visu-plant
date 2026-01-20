@@ -120,61 +120,86 @@ class DatabaseManager {
         // Apartamentos com seus status específicos (numero, status)
         const apartamentos: [string, string][] = [
           // Lojas
-          ['L01', 'vendido'],
-          ['L02', 'disponivel'], // Formulário múltiplo
+          ['L01', 'disponivel'],
+          ['L02', 'disponivel'],
+          ['L03', 'reservado'],
 
-          // 1º Andar
-          ['101', 'vendido'],
-          ['102', 'disponivel'],
-          ['103', 'disponivel'],
-          ['104', 'vendido'],
-          ['105', 'vendido'],
-          ['106', 'vendido'],
-          ['107', 'vendido'],
-          ['108', 'disponivel'],
-          ['109', 'disponivel'],
+          // 2º Andar - STUDIO PLUS / APTO 2D PLUS COM VAGA
+          ['201', 'reservado'],
+          ['202', 'reservado'],
+          ['203', 'reservado'],
+          ['204', 'reservado'],
+          ['205', 'reservado'],
+          ['206', 'reservado'],
+          ['207', 'reservado'],
+          ['208', 'reservado'],
+          ['209', 'reservado'],
+          ['210', 'reservado'],
+          ['211', 'reservado'],
+          ['212', 'reservado'],
+          ['213', 'reservado'],
+          ['214', 'reservado'],
+          ['215', 'reservado'],
+          ['216', 'disponivel'],
+          ['217', 'disponivel'],
+          ['218', 'reservado'],
 
-          // 2º Andar
-          ['201', 'disponivel'],
-          ['202', 'disponivel'],
-          ['203', 'disponivel'],
-          ['204', 'disponivel'],
-          ['205', 'disponivel'],
-          ['206', 'vendido'],
-          ['207', 'disponivel'], // Formulário múltiplo
-          ['208', 'disponivel'], // Formulário múltiplo
-          ['209', 'disponivel'], // Formulário múltiplo
-          ['210', 'disponivel'],
-          ['211', 'disponivel'], // Formulário múltiplo
-          ['212', 'disponivel'],
-          ['213', 'disponivel'], // Formulário múltiplo
-          ['214', 'disponivel'], // Formulário múltiplo
-          ['215', 'disponivel'], // Formulário múltiplo
-
-          // 3º Andar
-          ['301', 'disponivel'],
-          ['302', 'disponivel'],
+          // 3º Andar - STUDIO / APTO 2D COM VAGA
+          ['301', 'reservado'],
+          ['302', 'reservado'],
           ['303', 'disponivel'],
           ['304', 'disponivel'],
           ['305', 'disponivel'],
-          ['306', 'disponivel'], // Formulário múltiplo
-          ['307', 'disponivel'], // Formulário múltiplo
-          ['308', 'vendido'],
-          ['309', 'disponivel'], // Formulário múltiplo
+          ['306', 'reservado'],
+          ['307', 'reservado'],
+          ['308', 'reservado'],
+          ['309', 'disponivel'],
           ['310', 'disponivel'],
-          ['311', 'disponivel'],
-          ['312', 'disponivel'],
+          ['311', 'reservado'],
+          ['312', 'reservado'],
           ['313', 'disponivel'],
-          ['314', 'disponivel'],
+          ['314', 'reservado'],
           ['315', 'disponivel'],
+          ['316', 'reservado'],
+          ['317', 'disponivel'],
+          ['318', 'reservado'],
 
-          // 4º Andar
-          ['401', 'vendido'],
-          ['402', 'vendido'],
-          ['403', 'vendido'],
-          ['404', 'vendido'],
-          ['405', 'vendido'],
-          ['406', 'vendido']
+          // 4º Andar - STUDIO / APTO 2D COM VAGA
+          ['401', 'reservado'],
+          ['402', 'reservado'],
+          ['403', 'reservado'],
+          ['404', 'disponivel'],
+          ['405', 'disponivel'],
+          ['406', 'disponivel'],
+          ['407', 'reservado'],
+          ['408', 'reservado'],
+          ['409', 'disponivel'],
+          ['410', 'disponivel'],
+          ['411', 'disponivel'],
+          ['412', 'disponivel'],
+          ['413', 'disponivel'],
+          ['414', 'disponivel'],
+          ['415', 'reservado'],
+          ['416', 'reservado'],
+          ['417', 'reservado'],
+          ['418', 'reservado'],
+
+          // 5º Andar - COBERTURA C/ TERRAÇO
+          ['501', 'disponivel'],
+          ['502', 'disponivel'],
+          ['503', 'reservado'],
+          ['504', 'reservado'],
+          ['505', 'reservado'],
+          ['506', 'reservado'],
+          ['507', 'reservado'],
+          ['508', 'reservado'],
+          ['509', 'reservado'],
+
+          // VAGAS DE GARAGEM PRIVATIVAS
+          ['VG01', 'disponivel'],
+          ['VG02', 'disponivel'],
+          ['VG03', 'disponivel'],
+          ['VG04', 'disponivel']
         ];
 
         for (const [numero, status] of apartamentos) {
