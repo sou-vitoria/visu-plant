@@ -27,24 +27,24 @@ ON CONFLICT (numero) DO UPDATE SET status = 'disponivel', cliente_nome = NULL, c
 INSERT INTO apartamentos (numero, status) VALUES ('L02', 'disponivel')
 ON CONFLICT (numero) DO UPDATE SET status = 'disponivel', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
 
-INSERT INTO apartamentos (numero, status) VALUES ('L03', 'reservado')
-ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
+INSERT INTO apartamentos (numero, status) VALUES ('L03', 'vendido')
+ON CONFLICT (numero) DO UPDATE SET status = 'vendido', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
 
 -- 2º Andar - STUDIO PLUS / APTO 2D PLUS COM VAGA
-INSERT INTO apartamentos (numero, status) VALUES ('201', 'reservado')
-ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
+INSERT INTO apartamentos (numero, status) VALUES ('201', 'vendido')
+ON CONFLICT (numero) DO UPDATE SET status = 'vendido', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
 
-INSERT INTO apartamentos (numero, status) VALUES ('202', 'reservado')
-ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
+INSERT INTO apartamentos (numero, status) VALUES ('202', 'vendido')
+ON CONFLICT (numero) DO UPDATE SET status = 'vendido', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
 
 INSERT INTO apartamentos (numero, status) VALUES ('203', 'reservado')
 ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
 
-INSERT INTO apartamentos (numero, status) VALUES ('204', 'reservado')
-ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
+INSERT INTO apartamentos (numero, status) VALUES ('204', 'vendido')
+ON CONFLICT (numero) DO UPDATE SET status = 'vendido', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
 
-INSERT INTO apartamentos (numero, status) VALUES ('205', 'reservado')
-ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
+INSERT INTO apartamentos (numero, status) VALUES ('205', 'vendido')
+ON CONFLICT (numero) DO UPDATE SET status = 'vendido', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
 
 INSERT INTO apartamentos (numero, status) VALUES ('206', 'reservado')
 ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
@@ -52,14 +52,14 @@ ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cl
 INSERT INTO apartamentos (numero, status) VALUES ('207', 'reservado')
 ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
 
-INSERT INTO apartamentos (numero, status) VALUES ('208', 'reservado')
-ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
+INSERT INTO apartamentos (numero, status) VALUES ('208', 'vendido')
+ON CONFLICT (numero) DO UPDATE SET status = 'vendido', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
 
-INSERT INTO apartamentos (numero, status) VALUES ('209', 'reservado')
-ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
+INSERT INTO apartamentos (numero, status) VALUES ('209', 'vendido')
+ON CONFLICT (numero) DO UPDATE SET status = 'vendido', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
 
-INSERT INTO apartamentos (numero, status) VALUES ('210', 'reservado')
-ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
+INSERT INTO apartamentos (numero, status) VALUES ('210', 'vendido')
+ON CONFLICT (numero) DO UPDATE SET status = 'vendido', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
 
 INSERT INTO apartamentos (numero, status) VALUES ('211', 'reservado')
 ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
@@ -70,11 +70,11 @@ ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cl
 INSERT INTO apartamentos (numero, status) VALUES ('213', 'reservado')
 ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
 
-INSERT INTO apartamentos (numero, status) VALUES ('214', 'reservado')
-ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
+INSERT INTO apartamentos (numero, status) VALUES ('214', 'vendido')
+ON CONFLICT (numero) DO UPDATE SET status = 'vendido', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
 
-INSERT INTO apartamentos (numero, status) VALUES ('215', 'reservado')
-ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
+INSERT INTO apartamentos (numero, status) VALUES ('215', 'vendido')
+ON CONFLICT (numero) DO UPDATE SET status = 'vendido', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
 
 INSERT INTO apartamentos (numero, status) VALUES ('216', 'disponivel')
 ON CONFLICT (numero) DO UPDATE SET status = 'disponivel', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
@@ -86,11 +86,11 @@ INSERT INTO apartamentos (numero, status) VALUES ('218', 'reservado')
 ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
 
 -- 3º Andar - STUDIO / APTO 2D COM VAGA
-INSERT INTO apartamentos (numero, status) VALUES ('301', 'reservado')
-ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
+INSERT INTO apartamentos (numero, status) VALUES ('301', 'vendido')
+ON CONFLICT (numero) DO UPDATE SET status = 'vendido', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
 
-INSERT INTO apartamentos (numero, status) VALUES ('302', 'reservado')
-ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
+INSERT INTO apartamentos (numero, status) VALUES ('302', 'vendido')
+ON CONFLICT (numero) DO UPDATE SET status = 'vendido', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
 
 INSERT INTO apartamentos (numero, status) VALUES ('303', 'disponivel')
 ON CONFLICT (numero) DO UPDATE SET status = 'disponivel', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
@@ -101,11 +101,11 @@ ON CONFLICT (numero) DO UPDATE SET status = 'disponivel', cliente_nome = NULL, c
 INSERT INTO apartamentos (numero, status) VALUES ('305', 'disponivel')
 ON CONFLICT (numero) DO UPDATE SET status = 'disponivel', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
 
-INSERT INTO apartamentos (numero, status) VALUES ('306', 'reservado')
-ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
+INSERT INTO apartamentos (numero, status) VALUES ('306', 'vendido')
+ON CONFLICT (numero) DO UPDATE SET status = 'vendido', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
 
-INSERT INTO apartamentos (numero, status) VALUES ('307', 'reservado')
-ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
+INSERT INTO apartamentos (numero, status) VALUES ('307', 'vendido')
+ON CONFLICT (numero) DO UPDATE SET status = 'vendido', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
 
 INSERT INTO apartamentos (numero, status) VALUES ('308', 'reservado')
 ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
@@ -116,8 +116,8 @@ ON CONFLICT (numero) DO UPDATE SET status = 'disponivel', cliente_nome = NULL, c
 INSERT INTO apartamentos (numero, status) VALUES ('310', 'disponivel')
 ON CONFLICT (numero) DO UPDATE SET status = 'disponivel', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
 
-INSERT INTO apartamentos (numero, status) VALUES ('311', 'reservado')
-ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
+INSERT INTO apartamentos (numero, status) VALUES ('311', 'vendido')
+ON CONFLICT (numero) DO UPDATE SET status = 'vendido', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
 
 INSERT INTO apartamentos (numero, status) VALUES ('312', 'reservado')
 ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
@@ -125,24 +125,24 @@ ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cl
 INSERT INTO apartamentos (numero, status) VALUES ('313', 'disponivel')
 ON CONFLICT (numero) DO UPDATE SET status = 'disponivel', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
 
-INSERT INTO apartamentos (numero, status) VALUES ('314', 'reservado')
-ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
+INSERT INTO apartamentos (numero, status) VALUES ('314', 'vendido')
+ON CONFLICT (numero) DO UPDATE SET status = 'vendido', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
 
 INSERT INTO apartamentos (numero, status) VALUES ('315', 'disponivel')
 ON CONFLICT (numero) DO UPDATE SET status = 'disponivel', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
 
-INSERT INTO apartamentos (numero, status) VALUES ('316', 'reservado')
-ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
+INSERT INTO apartamentos (numero, status) VALUES ('316', 'vendido')
+ON CONFLICT (numero) DO UPDATE SET status = 'vendido', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
 
 INSERT INTO apartamentos (numero, status) VALUES ('317', 'disponivel')
 ON CONFLICT (numero) DO UPDATE SET status = 'disponivel', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
 
-INSERT INTO apartamentos (numero, status) VALUES ('318', 'reservado')
-ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
+INSERT INTO apartamentos (numero, status) VALUES ('318', 'vendido')
+ON CONFLICT (numero) DO UPDATE SET status = 'vendido', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
 
 -- 4º Andar - STUDIO / APTO 2D COM VAGA
-INSERT INTO apartamentos (numero, status) VALUES ('401', 'reservado')
-ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
+INSERT INTO apartamentos (numero, status) VALUES ('401', 'vendido')
+ON CONFLICT (numero) DO UPDATE SET status = 'vendido', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
 
 INSERT INTO apartamentos (numero, status) VALUES ('402', 'reservado')
 ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
@@ -189,11 +189,11 @@ ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cl
 INSERT INTO apartamentos (numero, status) VALUES ('416', 'reservado')
 ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
 
-INSERT INTO apartamentos (numero, status) VALUES ('417', 'reservado')
-ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
+INSERT INTO apartamentos (numero, status) VALUES ('417', 'vendido')
+ON CONFLICT (numero) DO UPDATE SET status = 'vendido', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
 
-INSERT INTO apartamentos (numero, status) VALUES ('418', 'reservado')
-ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
+INSERT INTO apartamentos (numero, status) VALUES ('418', 'vendido')
+ON CONFLICT (numero) DO UPDATE SET status = 'vendido', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
 
 -- 5º Andar - COBERTURA C/ TERRAÇO
 INSERT INTO apartamentos (numero, status) VALUES ('501', 'disponivel')
@@ -205,8 +205,8 @@ ON CONFLICT (numero) DO UPDATE SET status = 'disponivel', cliente_nome = NULL, c
 INSERT INTO apartamentos (numero, status) VALUES ('503', 'reservado')
 ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
 
-INSERT INTO apartamentos (numero, status) VALUES ('504', 'reservado')
-ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
+INSERT INTO apartamentos (numero, status) VALUES ('504', 'vendido')
+ON CONFLICT (numero) DO UPDATE SET status = 'vendido', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
 
 INSERT INTO apartamentos (numero, status) VALUES ('505', 'reservado')
 ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
@@ -214,14 +214,14 @@ ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cl
 INSERT INTO apartamentos (numero, status) VALUES ('506', 'reservado')
 ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
 
-INSERT INTO apartamentos (numero, status) VALUES ('507', 'reservado')
-ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
+INSERT INTO apartamentos (numero, status) VALUES ('507', 'vendido')
+ON CONFLICT (numero) DO UPDATE SET status = 'vendido', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
 
-INSERT INTO apartamentos (numero, status) VALUES ('508', 'reservado')
-ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
+INSERT INTO apartamentos (numero, status) VALUES ('508', 'vendido')
+ON CONFLICT (numero) DO UPDATE SET status = 'vendido', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
 
-INSERT INTO apartamentos (numero, status) VALUES ('509', 'reservado')
-ON CONFLICT (numero) DO UPDATE SET status = 'reservado', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
+INSERT INTO apartamentos (numero, status) VALUES ('509', 'vendido')
+ON CONFLICT (numero) DO UPDATE SET status = 'vendido', cliente_nome = NULL, cliente_telefone = NULL, cliente_email = NULL, cliente_cpf = NULL, consultor_nome = NULL, updated_at = CURRENT_TIMESTAMP;
 
 -- VAGAS DE GARAGEM PRIVATIVAS
 INSERT INTO apartamentos (numero, status) VALUES ('VG01', 'disponivel')
